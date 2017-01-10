@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Optics</title>
+<title>Factory Page</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -11,8 +11,8 @@
     ================================================== -->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon"  href="img/apple-touch-icon-114x114.png">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
@@ -41,17 +41,17 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html">Optics</a> </div>
+      <a class="navbar-brand" href="index.html">Syslife</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Home</a></li>
-        <li><a href="#about-section" class="page-scroll">About</a></li>
-        <li><a href="#services-section" class="page-scroll">Services</a></li>
+        <li><a href="#home" class="page-scroll">Inicio</a></li>
+        <li><a href="#about-section" class="page-scroll">Conocenos</a></li>
+        <li><a href="#services-section" class="page-scroll">Servicios</a></li>
         <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
-        <li><a href="#team-section" class="page-scroll">Team</a></li>
-        <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+        <li><a href="#team-section" class="page-scroll">Equipo</a></li>
+        <li><a href="#contact-section" class="page-scroll">Contactanos</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -62,30 +62,30 @@
 <!-- Header -->
 <header class="text-center" name="home">
   <div class="intro-text">
-    <h1>We are <span class="color">Optics</span></h1>
-    <p>An award winning digital design and development company</p>
+    <h1>Somos <span class="color">Syslife</span></h1>
+    <p>un equipo comprometido con el desarrollo</p>
     <div class="clearfix"></div>
-    <a href="#about-section" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+    <a href="#about-section" class="btn btn-default btn-lg page-scroll">Aprende mas</a> </div>
 </header>
 <!-- About Section -->
 <div id="about-section">
   <div class="container">
     <div class="section-title">
-      <h2>About Us</h2>
+      <h2>Conocenos</h2>
       <hr>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-4">
-        <h4>Who We Are</h4>
+        <h4>Quienes somos</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
       </div>
       <div class="col-md-4">
-        <h4>What We Do</h4>
+        <h4>Qué Hacemos</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
       </div>
       <div class="col-md-4">
-        <h4>Why Choose Us</h4>
+        <h4>Por qué elegirnos</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
       </div>
     </div>
@@ -95,44 +95,44 @@
 <div id="services-section">
   <div class="container">
     <div class="section-title">
-      <h2>Our Services</h2>
+      <h2>Nuestros servicios</h2>
       <hr>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
-        <h4>Web design</h4>
+        <h4>Diseño web</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
-        <h4>App Development</h4>
+        <h4>Desarrollo de aplicaciones</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-pie-chart"></i>
-        <h4>Analystics</h4>
+        <h4>Analítica</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
-        <h4>Marketing</h4>
+        <h4>Márketing</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
       </div>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-shopping-cart"></i>
-        <h4>eCommerce</h4>
+        <h4>ECommerce</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-file-text-o"></i>
-        <h4>Content Development</h4>
+        <h4>Desarrollo de contenido</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
-        <h4>Branding</h4>
+        <h4>Marca</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-camera"></i>
-        <h4>Video & Photography</h4>
+        <h4>Video & Fotografía</h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
       </div>
     </div>
@@ -142,7 +142,7 @@
 <div id="works-section">
   <div class="container"> <!-- Container -->
     <div class="section-title">
-      <h2>Our Portfolio</h2>
+      <h2>Nuestro portafolio</h2>
       <hr>
       <div class="clearfix"></div>
     </div>
@@ -150,10 +150,10 @@
       <ul class="cat">
         <li>
           <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
+            <li><a href="#" data-filter="*" class="active">Todos</a></li>
+            <li><a href="#" data-filter=".web">Diseño web</a></li>
+            <li><a href="#" data-filter=".app">Desarrollo de aplicaciones</a></li>
+            <li><a href="#" data-filter=".branding">Marca</a></li>
           </ol>
         </li>
       </ul>
@@ -257,27 +257,27 @@
 <div id="team-section">
   <div class="container">
     <div class="section-title">
-      <h2>Meet the Team</h2>
+      <h2>Conocer al equipo</h2>
       <hr>
     </div>
     <div id="row">
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <img src="img/team/miki.jpg" alt="..." class="team-img">
           <div class="caption">
-            <h3>John Doe</h3>
-            <p>Founder</p>
+            <h3>Miguel Mosquera</h3>
+            <p>Desarrollador</p>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <img src="img/team/oba.jpg" alt="..." class="team-img">
           <div class="caption">
-            <h3>Mike Doe</h3>
-            <p>Web Designer</p>
+            <h3>Oswaldo Teran</h3>
+            <p>Desarrollador</p>
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 team">
+      <!--<div class="col-md-3 col-sm-6 team">
         <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="team-img">
           <div class="caption">
             <h3>Jane Doe</h3>
@@ -292,7 +292,7 @@
             <p>Project Manager</p>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </div>
@@ -300,26 +300,25 @@
 <div id="contact-section">
   <div class="container">
     <div class="section-title center">
-      <h2>Contact Us</h2>
+      <h2>Contáctenos</h2>
       <hr>
     </div>
     <div class="col-md-4">
-      <h4>Contact info</h4>
+      <h4>Datos de contacto</h4>
       <div class="space"></div>
-      <p><i class="fa fa-map-marker"></i>4321 California St,<br>
-        San Francisco, CA 12345</p>
+      <p><i class="fa fa-map-marker"></i>Urb. del Este Barquisimeto - Venezuela</p>
       <div class="space"></div>
       <p><i class="fa fa-envelope-o"></i>info@company.com</p>
       <div class="space"></div>
-      <p><i class="fa fa-phone"></i>+1 123 456 1234</p>
+      <p><i class="fa fa-phone"></i>+58 04165597370</p>
     </div>
     <div class="col-md-8">
-      <h4>Leave us a message</h4>
+      <h4>Dejanos un mensaje</h4>
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -331,11 +330,11 @@
           </div>
         </div>
         <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
-        <button type="submit" class="btn btn-default">Send Message</button>
+        <button type="submit" class="btn btn-default">Enviar mensaje</button>
       </form>
     </div>
   </div>
@@ -346,10 +345,8 @@
       <ul>
         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
         <li><a href="#"><i class="fa fa-github"></i></a></li>
         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div>
   </div>
