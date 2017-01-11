@@ -262,7 +262,7 @@
     </div>
     <div id="row">
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/miki.jpg" alt="..." class="team-img">
+        <div class="thumbnail"> <img src="img/team/miguel.png" alt="..." class="team-img">
           <div class="caption">
             <h3>Miguel Mosquera</h3>
             <p>Desarrollador</p>
