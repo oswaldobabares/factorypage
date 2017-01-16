@@ -21,4 +21,6 @@
 	$bloqueDos='We develop personalized web and mobile applications that are based on the characteristics of your company.';
 	$disenoMoviles='Mobile App Design';
 	$bloqueTres='The design of the applications is one of the strengths between the competition we create your own.';
+	$asesorias='Counseling';
+	$bloqueCuatro='We get a qualified team to advise you in different programming languages.';
 ?>

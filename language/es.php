@@ -21,4 +21,6 @@
 	$bloqueDos='Desarrollamos aplicaciones web y móviles personalizadas que se basen es las caracteristicas de su empresa';
 	$disenoMoviles='Diseño de App Móviles';
 	$bloqueTres='El diseño de las aplicaciones es uno de los puntos fuertes entre la competencia nostros te creamos la tuya.';
+	$asesorias='Asesorias';
+	$bloqueCuatro='Obtenemos un equipo calificado para asesorarte en distintos lenguajes de programación.';
 ?>

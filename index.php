@@ -60,7 +60,7 @@
         <li>
         	<form action="" method="post" accept-charset="utf-8">
 				<input type="hidden" name="language" value="<?php if($lang=='en')  { ?>es<?php } else { ?>en<?php } ?>" id="language"/>
-				<button id="buttonChangeLanguage" class="buttonChangeLanguage" type="submit"><?php if($lang=='en')  { ?> <p class="nameChangeLanguage">En</p><?php } else { ?> <p class="nameChangeLanguage" >Es</p><?php } ?></button>
+				<button id="buttonChangeLanguage" class="buttonChangeLanguage" type="submit"><?php if($lang=='en')  { ?> <p class="nameChangeLanguage">En</p><?php } else { ?> <p class="nameChangeLanguage" >Es</p><?php } ?> <i class="fa fa-caret-down caret_down" aria-hidden="true"></i></button>
 			</form>
         </li>	
       </ul>
@@ -113,38 +113,38 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
         <h4><?php echo $diseñoWeb ?></h4>
-        <p><?php echo $bloqueUno ?></p>
+        <p class="text_services"><?php echo $bloqueUno ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
         <h4><?php echo $desarolloAplicaciones ?></h4>
-        <p><?php echo $bloqueDos ?></p>
+        <p class="text_services"><?php echo $bloqueDos ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-mobile" aria-hidden="true"></i>
         <h4><?php echo $disenoMoviles ?></h4>
-        <p><?php echo $bloqueTres ?></p>
+        <p class="text_services"><?php echo $bloqueTres ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
-        <h4>Márketing</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-area-chart"></i>
+        <h4><?php echo $asesorias ?></h4>
+        <p class="text_services"><?php echo $bloqueCuatro ?></p>
       </div>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-shopping-cart"></i>
         <h4>ECommerce</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-file-text-o"></i>
         <h4>Desarrollo de contenido</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
         <h4>Marca</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-camera"></i>
         <h4>Video & Fotografía</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
       </div>
     </div>
   </div>

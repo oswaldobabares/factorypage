@@ -47,6 +47,7 @@ a:hover, a:focus {
 	background: none;
     border: none;
     padding: 12px 12px 0px 12px;	
+    display:block;
 }
 
 .buttonChangeLanguage:after{
@@ -59,6 +60,12 @@ a:hover, a:focus {
 
 .nameChangeLanguage{
 	color: #BBBBBB;
+	display: inline-block;
+}
+
+.caret_down{
+	color: #BBBBBB;
+	display: inline-block;
 }
 
 .clearfix:after {
@@ -206,6 +213,10 @@ header p {
 #about-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align:justify;
+}
+
+.text_services{
 	text-align:justify;
 }
 /* Team Section */
