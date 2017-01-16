@@ -206,6 +206,7 @@ header p {
 #about-section p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+	text-align:justify;
 }
 /* Team Section */
 #team-section {

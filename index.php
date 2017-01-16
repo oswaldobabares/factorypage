@@ -116,12 +116,12 @@
         <p><?php echo $bloqueUno ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
-        <h4>Desarrollo de aplicaciones</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        <h4><?php echo $desarolloAplicaciones ?></h4>
+        <p><?php echo $bloqueDos ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-pie-chart"></i>
-        <h4>Analítica</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-mobile" aria-hidden="true"></i>
+        <h4><?php echo $disenoMoviles ?></h4>
+        <p><?php echo $bloqueTres ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
         <h4>Márketing</h4>

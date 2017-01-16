@@ -16,5 +16,9 @@
 	$parrafoTres='We are projected to be the best alternative in Web Development for the Entrepreneur who seeks to exploit the opportunities that the Internet offers to boost his Business, where our Quality is reflected in an excellent relationship with our Clients, and where our prosperity is shared among our Employees and Suppliers.';
 	$nuestrosServicios='Our services';
 	$diseñoWeb='Web design';
-	$bloqueUno='Get a website with a unique design that sets you apart from your competition. In our developments we not only take into account the functionality, aesthetics, ease of navigation structures and agility in the download, but also we are foreseeing with respect to technical characteristics optimum that allow to accelerate the evolution of your business in Internet and to climb As you do your activity.';
+	$bloqueUno='Get a website with a unique design that sets you apart from your competition.';
+	$desarolloAplicaciones='Applications development';
+	$bloqueDos='We develop personalized web and mobile applications that are based on the characteristics of your company.';
+	$disenoMoviles='Mobile App Design';
+	$bloqueTres='The design of the applications is one of the strengths between the competition we create your own.';
 ?>

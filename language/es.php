@@ -16,5 +16,9 @@
 	$parrafoTres='Tenemos proyectado ser la mejor alternativa en Desarrollo Web para el Empresario que busca explotar las oportunidades que Internet le ofrece para impulsar su Negocio, en donde nuestra Calidad se refleje en una excelente relación con nuestros Clientes, y donde nuestra prosperidad se comparta entre nuestros Empleados y Proveedores.';
 	$nuestrosServicios='Nuestros Servicios';
 	$diseñoWeb='Diseño Web';
-	$bloqueUno='Obtenga un sitio web con un diseño exclusivo que lo diferencie de su competencia. En nuestros desarrollos no solo tenemos en cuenta la funcionalidad, la estética, las estructuras de facilidad de navegación y la agilidad en la descarga, sino que además somos previsores con respecto a características técnicas óptimas que permiten agilizar la evolución de su negocio en internet y escalar a medida que lo hace su actividad.';
+	$bloqueUno='Obtenga un sitio web con un diseño exclusivo que lo diferencie de su competencia.';
+	$desarolloAplicaciones='Desarrollo de Aplicaciones';
+	$bloqueDos='Desarrollamos aplicaciones web y móviles personalizadas que se basen es las caracteristicas de su empresa';
+	$disenoMoviles='Diseño de App Móviles';
+	$bloqueTres='El diseño de las aplicaciones es uno de los puntos fuertes entre la competencia nostros te creamos la tuya.';
 ?>
