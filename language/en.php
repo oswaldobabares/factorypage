@@ -11,8 +11,10 @@
 	$quienesSomos='About us';
 	$parrafoUno='Web Progress is a team of professional Venezuelans with extensive experience in web page development and design, web positioning, consulting, mobile applications and Internet business. Which since 2009 has focused on integrating Small and Medium Enterprises in the web world.';
 	$quéHacemos='What do we do';
-	$parrafoDos='';
+	$parrafoDos='We carry out research and development tasks to be at the forefront of new technologies. We constantly invest in our own projects that test our development potential, not only in the field of technology, but also in the field of business.';
 	$porqueElegirnos='Why Choose Us';
 	$parrafoTres='We are projected to be the best alternative in Web Development for the Entrepreneur who seeks to exploit the opportunities that the Internet offers to boost his Business, where our Quality is reflected in an excellent relationship with our Clients, and where our prosperity is shared among our Employees and Suppliers.';
-
+	$nuestrosServicios='Our services';
+	$diseñoWeb='Web design';
+	$bloqueUno='Get a website with a unique design that sets you apart from your competition. In our developments we not only take into account the functionality, aesthetics, ease of navigation structures and agility in the download, but also we are foreseeing with respect to technical characteristics optimum that allow to accelerate the evolution of your business in Internet and to climb As you do your activity.';
 ?>
