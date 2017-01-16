@@ -106,14 +106,14 @@
 <div id="services-section">
   <div class="container">
     <div class="section-title">
-      <h2>Nuestros servicios</h2>
+      <h2><?php echo $nuestrosServicios ?></h2>
       <hr>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
-        <h4>Diseño web</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        <h4><?php echo $diseñoWeb ?></h4>
+        <p><?php echo $bloqueUno ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
         <h4>Desarrollo de aplicaciones</h4>
@@ -377,7 +377,11 @@
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<<<<<<< HEAD
+<!--<script type="text/javascript" src="js/contact_me.js"></script>--> 
+=======
 <!--<script type="text/javascript" src="js/contact_me.js"></script> -->
+>>>>>>> 827d340f48c42041edaab24342103d7c052e9525
 
 <!-- Javascripts
     ================================================== --> 
