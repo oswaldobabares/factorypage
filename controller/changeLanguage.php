@@ -1,6 +1,5 @@
 <?php
     if (empty($_POST["language"])){
-    	
     	$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0,2);
 		$_SESSION['language']=$lang;
 		if($lang!="es"){

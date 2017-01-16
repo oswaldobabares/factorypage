@@ -2,6 +2,7 @@
 <?php
 	session_start();
 	require_once  'controller/changeLanguage.php';
+	require_once  'controller/sendEmail.php';
 ?>
 <html lang="en">
 <head>
@@ -57,10 +58,10 @@
         <li><a href="#team-section" class="page-scroll"><?php echo $equipo ?></a></li>
         <li><a href="#contact-section" class="page-scroll"><?php echo $contactanos ?></a></li>
         <li>
-        	<a href="controller/changeLanguage.php" class="page-scroll">Es</a>
-        	<ul class="nav navbar-nav navbar-right">
-        		<li><a href="controller/changeLanguage.php" class="page-scroll">En</a>
-        	</ul>
+        	<form action="" method="post" accept-charset="utf-8">
+				<input type="hidden" name="language" value="<?php if($lang=='en')  { ?>es<?php } else { ?>en<?php } ?>" id="language"/>
+				<button id="buttonChangeLanguage" class="buttonChangeLanguage" type="submit"><?php if($lang=='en')  { ?> <p class="nameChangeLanguage">En</p><?php } else { ?> <p class="nameChangeLanguage" >Es</p><?php } ?></button>
+			</form>
         </li>	
       </ul>
     </div>
@@ -313,7 +314,7 @@
       <h2>Contáctenos</h2>
       <hr>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4"><?php if($lang=='en')  { ?> <p class="nameChangeLanguage">Espanol</p><?php } else { ?> <p class="nameChangeLanguage" >English</p><?php } ?>
       <h4>Datos de contacto</h4>
       <div class="space"></div>
       <p><i class="fa fa-map-marker"></i>Urb. del Este Barquisimeto - Venezuela</p>
@@ -324,7 +325,7 @@
     </div>
     <div class="col-md-8">
       <h4>Dejanos un mensaje</h4>
-      <form name="sentMessage" id="contactForm" novalidate>
+      <form action="" method="post" accept-charset="utf-8">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -376,7 +377,7 @@
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+<!--<script type="text/javascript" src="js/contact_me.js"></script> -->
 
 <!-- Javascripts
     ================================================== --> 
