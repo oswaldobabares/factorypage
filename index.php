@@ -56,9 +56,12 @@
         <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
         <li><a href="#team-section" class="page-scroll">Equipo</a></li>
         <li><a href="#contact-section" class="page-scroll">Contactanos</a></li>
-        <li><select class="languageMenu"><option>Es</option>
-        			<option>En</option>
-        </select></li>
+        <li>
+        	<a href="controller/changeLanguage.php" class="page-scroll">Es</a>
+        	<ul class="nav navbar-nav navbar-right">
+        		<li><a href="controller/changeLanguage.php" class="page-scroll">En</a><
+        	</ul>
+        </li>	
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
