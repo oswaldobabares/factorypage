@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Factory Page</title>
+<title>Web Progress</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -45,21 +45,21 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.php">Syslife</a> </div>
+      <a class="navbar-brand" href="index.php">Web Progress</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#home" class="page-scroll"><?php echo $inicio ?></a></li>
         <li><a href="#about-section" class="page-scroll"><?php echo $conoceme ?></a></li>
-        <li><a href="#services-section" class="page-scroll">Servicios</a></li>
-        <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
-        <li><a href="#team-section" class="page-scroll">Equipo</a></li>
-        <li><a href="#contact-section" class="page-scroll">Contactanos</a></li>
+        <li><a href="#services-section" class="page-scroll"><?php echo $servicios ?></a></li>
+        <li><a href="#works-section" class="page-scroll"><?php echo $portafolio ?></a></li>
+        <li><a href="#team-section" class="page-scroll"><?php echo $equipo ?></a></li>
+        <li><a href="#contact-section" class="page-scroll"><?php echo $contactanos ?></a></li>
         <li>
         	<a href="controller/changeLanguage.php" class="page-scroll">Es</a>
         	<ul class="nav navbar-nav navbar-right">
-        		<li><a href="controller/changeLanguage.php" class="page-scroll">En</a><
+        		<li><a href="controller/changeLanguage.php" class="page-scroll">En</a>
         	</ul>
         </li>	
       </ul>
@@ -72,31 +72,31 @@
 <!-- Header -->
 <header class="text-center" name="home">
   <div class="intro-text">
-    <h1>Somos <span class="color">Syslife</span></h1>
-    <p>un equipo comprometido con el desarrollo</p>
+    <h1><?php echo $titulo ?><span class="color"> Web Progress</span></h1>
+    <p><?php echo $subTitulo ?></p>
     <div class="clearfix"></div>
-    <a href="#about-section" class="btn btn-default btn-lg page-scroll">Aprende mas</a> </div>
+    <a href="#about-section" class="btn btn-default btn-lg page-scroll"><?php echo $link ?></a> </div>
 </header>
 <!-- About Section -->
 <div id="about-section">
   <div class="container">
     <div class="section-title">
-      <h2>Conocenos</h2>
+      <h2><?php echo $conoceme ?></h2>
       <hr>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-4">
-        <h4>Quienes somos</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
+        <h4><?php echo $quienesSomos ?></h4>
+        <p><?php echo $parrafoUno ?></p>
       </div>
       <div class="col-md-4">
-        <h4>Qué Hacemos</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
+        <h4><?php echo $quéHacemos ?></h4>
+        <p><?php echo $parrafoDos ?></p>
       </div>
       <div class="col-md-4">
-        <h4>Por qué elegirnos</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.</p>
+        <h4><?php echo $porqueElegirnos ?></h4>
+        <p><?php echo $parrafoTres ?></p>
       </div>
     </div>
   </div>
