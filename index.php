@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+	session_start();
+	require_once  'controller/changeLanguage.php';
+?>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -46,12 +50,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home" class="page-scroll">Inicio</a></li>
-        <li><a href="#about-section" class="page-scroll">Conocenos</a></li>
+        <li><a href="#home" class="page-scroll"><?php echo $inicio ?></a></li>
+        <li><a href="#about-section" class="page-scroll"><?php echo $conoceme ?></a></li>
         <li><a href="#services-section" class="page-scroll">Servicios</a></li>
         <li><a href="#works-section" class="page-scroll">Portfolio</a></li>
         <li><a href="#team-section" class="page-scroll">Equipo</a></li>
         <li><a href="#contact-section" class="page-scroll">Contactanos</a></li>
+        <li><select class="languageMenu"><option>Es</option>
+        			<option>En</option>
+        </select></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 

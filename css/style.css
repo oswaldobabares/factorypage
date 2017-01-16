@@ -59,6 +59,14 @@ a:hover, a:focus {
 .clearfix {
 	display: block;
 }
+
+.languageMenu{
+	background: none;
+    color: #bbbbbb;
+    border: none;
+    padding: 15px 2px 15px 15px;
+}
+
 ul, ol {
 	padding: 0;
 	webkit-padding: 0;
