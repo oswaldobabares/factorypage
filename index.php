@@ -111,7 +111,7 @@
     </div>
     <div class="space"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
         <h4><?php echo $diseñoWeb ?></h4>
         <p class="text_services"><?php echo $bloqueUno ?></p>
       </div>
@@ -119,32 +119,32 @@
         <h4><?php echo $desarolloAplicaciones ?></h4>
         <p class="text_services"><?php echo $bloqueDos ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-mobile" aria-hidden="true"></i>
-        <h4><?php echo $disenoMoviles ?></h4>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-google"></i>
+        <h4><?php echo $responsive ?></h4>
         <p class="text_services"><?php echo $bloqueTres ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-area-chart"></i>
-        <h4><?php echo $asesorias ?></h4>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-mobile"></i>
+        <h4><?php echo $aplicacionMobile ?></h4>
         <p class="text_services"><?php echo $bloqueCuatro ?></p>
       </div>
     </div>
     <div class="space"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-shopping-cart"></i>
-        <h4>ECommerce</h4>
-        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-share-alt"></i>
+        <h4><?php echo $comunityManager ?></h4>
+        <p class="text_services"><?php echo $bloqueCinco ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-file-text-o"></i>
-        <h4>Desarrollo de contenido</h4>
-        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        <h4><?php echo $asesorias ?></h4>
+        <p class="text_services"><?php echo $bloqueSeis ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
-        <h4>Marca</h4>
-        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-share-alt"></i>
+        <h4><?php echo $testing ?></h4>
+        <p class="text_services"><?php echo $bloqueSiete ?></p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-camera"></i>
-        <h4>Video & Fotografía</h4>
-        <p class="text_services">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+        <h4><?php echo $fotografia ?></h4>
+        <p class="text_services"><?php echo $bloqueOcho ?></p>
       </div>
     </div>
   </div>
@@ -153,7 +153,7 @@
 <div id="works-section">
   <div class="container"> <!-- Container -->
     <div class="section-title">
-      <h2>Nuestro portafolio</h2>
+      <h2><?php echo $nuestroPortafolio ?></h2>
       <hr>
       <div class="clearfix"></div>
     </div>
@@ -161,10 +161,10 @@
       <ul class="cat">
         <li>
           <ol class="type">
-            <li><a href="#" data-filter="*" class="active">Todos</a></li>
-            <li><a href="#" data-filter=".web">Diseño web</a></li>
-            <li><a href="#" data-filter=".app">Desarrollo de aplicaciones</a></li>
-            <li><a href="#" data-filter=".branding">Marca</a></li>
+            <li><a href="#" data-filter="*" class="active"><?php echo $pestañaUno ?></a></li>
+            <li><a href="#" data-filter=".web"><?php echo $pestañaDos ?></a></li>
+            <li><a href="#" data-filter=".Applications"><?php echo $pestañaTres ?></a></li>
+            <li><a href="#" data-filter=".mobile"><?php echo $pestañaCuatro ?></a></li>
           </ol>
         </li>
       </ul>
@@ -174,90 +174,57 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01.jpg" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/alexfernandez.png" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
+                <h4>Alex Fernandez</h4>
+                <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/alexfernandez.png" class="img-responsive" alt="Alex Fernandez"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03.jpg" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/edgarbalbas.png" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
+                <h4>Blog Edgar Balbas</h4>
+                <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/edgarbalbas.png" class="img-responsive" alt="Blog Edgar Balbas"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04.jpg" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/alexfernandez.png" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
+                <h4>Poporo Ink</h4>
+                <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/alexfernandez.png" class="img-responsive" alt="Poporo Ink"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
+        <div class="col-sm-6 col-md-3 col-lg-3 mobile">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05.jpg" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/apps.png" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
+                <h4>App Herbalife</h4>
+                <small><?php echo $pestañaCuatro ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/apps.png" class="img-responsive" alt="App Herbalife"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+        <div class="col-sm-6 col-md-3 col-lg-3 Applications">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06.jpg" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/syslife.png" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small>
+                <h4>SYSLIFE</h4>
+                <small><?php echo $pestañaTres ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/syslife.png" class="img-responsive" alt="SYSLIFE"> </a> </div>
           </div>
         </div>
       </div>
@@ -268,7 +235,7 @@
 <div id="team-section">
   <div class="container">
     <div class="section-title">
-      <h2>Conocer al equipo</h2>
+      <h2><?php echo $conoceEquipo ?></h2>
       <hr>
     </div>
     <div id="row">
@@ -276,7 +243,7 @@
         <div class="thumbnail"> <img src="img/team/miguel.png" alt="..." class="team-img">
           <div class="caption">
             <h3>Miguel Mosquera</h3>
-            <p>Desarrollador</p>
+            <p><?php echo $desarrollador ?></p>
           </div>
         </div>
       </div>
@@ -284,26 +251,10 @@
         <div class="thumbnail"> <img src="img/team/oba.jpg" alt="..." class="team-img">
           <div class="caption">
             <h3>Oswaldo Teran</h3>
-            <p>Desarrollador</p>
+            <p><?php echo $desarrollador ?></p>
           </div>
         </div>
       </div>
-      <!--<div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="team-img">
-          <div class="caption">
-            <h3>Jane Doe</h3>
-            <p>Creative Director</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="team-img">
-          <div class="caption">
-            <h3>Larry Show</h3>
-            <p>Project Manager</p>
-          </div>
-        </div>
-      </div>-->
     </div>
   </div>
 </div>
@@ -311,11 +262,11 @@
 <div id="contact-section">
   <div class="container">
     <div class="section-title center">
-      <h2>Contáctenos</h2>
+      <h2><?php echo $contactanos ?></h2>
       <hr>
     </div>
-    <div class="col-md-4"><?php if($lang=='en')  { ?> <p class="nameChangeLanguage">Espanol</p><?php } else { ?> <p class="nameChangeLanguage" >English</p><?php } ?>
-      <h4>Datos de contacto</h4>
+    <div class="col-md-4">
+      <h4><?php echo $datosDeContacto ?></h4>
       <div class="space"></div>
       <p><i class="fa fa-map-marker"></i>Urb. del Este Barquisimeto - Venezuela</p>
       <div class="space"></div>
@@ -324,12 +275,12 @@
       <p><i class="fa fa-phone"></i>+58 04165597370</p>
     </div>
     <div class="col-md-8">
-      <h4>Dejanos un mensaje</h4>
+      <h4><?php echo $dejanosUnMensaje ?></h4>
       <form action="" method="post" accept-charset="utf-8">
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
+              <input type="text" id="name" class="form-control" placeholder=<?php echo $nombre ?> required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -341,16 +292,16 @@
           </div>
         </div>
         <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder=<?php echo $mensaje ?> required></textarea>
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
-        <button type="submit" class="btn btn-default">Enviar mensaje</button>
+        <button type="submit" class="btn btn-default"><?php echo $enviarMensaje ?></button>
       </form>
     </div>
   </div>
 </div>
-<div id="social-section">
+<!--<div id="social-section">
   <div class="container">
     <div class="social">
       <ul>
@@ -361,10 +312,10 @@
       </ul>
     </div>
   </div>
-</div>
+</div>-->
 <div id="footer">
   <div class="container">
-    <p>Copyright &copy; Optics. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+    <p>Copyright &copy; Optics. Designed by <a href="http://www.templatewire.com" rel="nofollow"></a></p>
   </div>
 </div>
 
@@ -377,11 +328,10 @@
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<<<<<<< HEAD
+
 <!--<script type="text/javascript" src="js/contact_me.js"></script>--> 
-=======
+
 <!--<script type="text/javascript" src="js/contact_me.js"></script> -->
->>>>>>> 827d340f48c42041edaab24342103d7c052e9525
 
 <!-- Javascripts
     ================================================== --> 
