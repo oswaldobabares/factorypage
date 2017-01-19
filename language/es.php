@@ -20,7 +20,7 @@
 	$desarolloAplicaciones='Desarrollo de Aplicaciones';
 	$bloqueDos='Mantenemos una integracion continua con el cliente para que su sitio web o sistema satisfaga todas sus necesidades.';
 	$responsive='Responsive';
-	$bloqueTres='Garantizamos la adaptabilidad del sitio web en cualquier dispositivo inteligente.';
+	$bloqueTres='Para nosotros es importante la comodidad del cliente, es por ello que su sitio web o aplicacion sera capaz de adaptarse a cualquier dispositivo movil, table o laptop.';
 	$aplicacionMobile='Aplicaciones moviles';
 	$bloqueCuatro='Desarrollamos aplicaciones móviles para iPhone, iPad, Android y Windows Phone. Dinos que necesita y nuestro equipo de profesionales le ayudara a ser parte de esta tendencia.';
 	$comunityManager='Comunity Manager';

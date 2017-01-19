@@ -20,7 +20,7 @@
 	$desarolloAplicaciones='Applications development';
 	$bloqueDos='We maintain continuous integration with the client so that your website or system meets all your needs.';
 	$responsive='Responsive';
-	$bloqueTres='We guarantee the adaptability of the website on any smart device.';
+	$bloqueTres='For us it is important the comfort of the client, that is why your website or application will be able to adapt to any mobile device, table or laptop.';
 	$aplicacionMobile='Mobile apps';
 	$bloqueCuatro='We develop mobile applications for iPhone, iPad, Android and Windows Phone. Tell us what you need and our team of professionals will help you to be part of this trend.';
 	$comunityManager='Comunity Manager';

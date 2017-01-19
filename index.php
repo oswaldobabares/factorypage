@@ -46,7 +46,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.php">Web Progress</a> </div>
+      <a class="navbar-brand" href="#">Web Progress</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -111,38 +111,46 @@
     </div>
     <div class="space"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/website-design-symbol.png" />
         <h4><?php echo $diseñoWeb ?></h4>
         <p class="text_services"><?php echo $bloqueUno ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/data.png" />
         <h4><?php echo $desarolloAplicaciones ?></h4>
         <p class="text_services"><?php echo $bloqueDos ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-google"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/responsive-design-symbol.png" />
         <h4><?php echo $responsive ?></h4>
         <p class="text_services"><?php echo $bloqueTres ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-mobile"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/smartphone-call.png" />
         <h4><?php echo $aplicacionMobile ?></h4>
         <p class="text_services"><?php echo $bloqueCuatro ?></p>
       </div>
     </div>
     <div class="space"></div>
     <div class="row">
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-share-alt"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/business-comunication.png" />
         <h4><?php echo $comunityManager ?></h4>
         <p class="text_services"><?php echo $bloqueCinco ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-file-text-o"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/classroom.png" />
         <h4><?php echo $asesorias ?></h4>
         <p class="text_services"><?php echo $bloqueSeis ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-share-alt"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/test.png" />
         <h4><?php echo $testing ?></h4>
         <p class="text_services"><?php echo $bloqueSiete ?></p>
       </div>
-      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-camera"></i>
+      <div class="col-md-3 col-sm-6 service">
+      	<img style="display: block" src="img/iconos/photo-camera.png" />
         <h4><?php echo $fotografia ?></h4>
         <p class="text_services"><?php echo $bloqueOcho ?></p>
       </div>
@@ -174,57 +182,57 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/alexfernandez.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/alex.png" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Alex Fernandez</h4>
                 <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/alexfernandez.png" class="img-responsive" alt="Alex Fernandez"> </a> </div>
+              <img src="img/portfolio/alex.png" class="img-responsive" alt="alexfernandez.tk"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/edgarbalbas.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/blogbalbas.png" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Blog Edgar Balbas</h4>
                 <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/edgarbalbas.png" class="img-responsive" alt="Blog Edgar Balbas"> </a> </div>
+              <img src="img/portfolio/blogbalbas.png" class="img-responsive" alt="Blog Edgar Balbas"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/alexfernandez.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/poporoink.png" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Poporo Ink</h4>
                 <small><?php echo $pestañaDos ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/alexfernandez.png" class="img-responsive" alt="Poporo Ink"> </a> </div>
+              <img src="img/portfolio/poporoink.png" class="img-responsive" alt="Poporo Ink"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 mobile">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/apps.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/recorteApp.png" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>App Herbalife</h4>
                 <small><?php echo $pestañaCuatro ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/apps.png" class="img-responsive" alt="App Herbalife"> </a> </div>
+              <img src="img/portfolio/recorteApp.png" class="img-responsive" alt="App Herbalife"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 Applications">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/syslife.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/SYSLIFE.png" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>SYSLIFE</h4>
                 <small><?php echo $pestañaTres ?></small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/syslife.png" class="img-responsive" alt="SYSLIFE"> </a> </div>
+              <img src="img/portfolio/SYSLIFE.png" class="img-responsive" alt="SYSLIFE"> </a> </div>
           </div>
         </div>
       </div>
@@ -312,12 +320,12 @@
       </ul>
     </div>
   </div>
-</div>-->
+</div>
 <div id="footer">
   <div class="container">
     <p>Copyright &copy; Optics. Designed by <a href="http://www.templatewire.com" rel="nofollow"></a></p>
   </div>
-</div>
+</div>-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
