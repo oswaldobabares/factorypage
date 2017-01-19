@@ -281,6 +281,7 @@ ul.cat li {
 ol.type li {
 	display: inline-block;
 	margin-left: 20px;
+	line-height: 30px;
 }
 ol.type li a {
 	color: #888;
@@ -484,7 +485,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 }
 
-@media (max-width: 603px) {
+@media (max-width: 768px) {
 #menu.navbar-default {
 	background-color: rgba(0, 0, 0, 0.7);
 }
@@ -496,3 +497,8 @@ label {
 }
 }
 
+@media (max-width: 350px) {
+h2 {
+	font-size: 32px;
+}
+}

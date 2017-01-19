@@ -246,7 +246,7 @@
       <h2><?php echo $conoceEquipo ?></h2>
       <hr>
     </div>
-    <div id="row">
+    <div id="row" style="display: block; text-align: -webkit-center">
       <div class="col-md-3 col-sm-6 team">
         <div class="thumbnail"> <img src="img/team/miguel.png" alt="..." class="team-img">
           <div class="caption">
@@ -276,11 +276,11 @@
     <div class="col-md-4">
       <h4><?php echo $datosDeContacto ?></h4>
       <div class="space"></div>
-      <p><i class="fa fa-map-marker"></i>Urb. del Este Barquisimeto - Venezuela</p>
+      <p><i class="fa fa-map-marker"></i>Venezuela</p>
       <div class="space"></div>
-      <p><i class="fa fa-envelope-o"></i>info@company.com</p>
+      <p><i class="fa fa-envelope-o"></i>administrator@webprogress.com.ve</p>
       <div class="space"></div>
-      <p><i class="fa fa-phone"></i>+58 04165597370</p>
+      <p><i class="fa fa-phone"></i>+58 04245595806</p>
     </div>
     <div class="col-md-8">
       <h4><?php echo $dejanosUnMensaje ?></h4>
@@ -320,12 +320,12 @@
       </ul>
     </div>
   </div>
-</div>
+</div>-->
 <div id="footer">
   <div class="container">
-    <p>Copyright &copy; Optics. Designed by <a href="http://www.templatewire.com" rel="nofollow"></a></p>
+    <p>Copyright &copy; WebProgress</p>
   </div>
-</div>-->
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
