@@ -288,13 +288,13 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder=<?php echo $nombre ?> required="required">
+              <input type="text" id="name" name="name" class="form-control" placeholder=<?php echo $nombre ?> required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="required">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -303,8 +303,9 @@
           <textarea name="message" id="message" class="form-control" rows="4" placeholder=<?php echo $mensaje ?> required></textarea>
           <p class="help-block text-danger"></p>
         </div>
+        <p class="help-block text-danger"><?php echo $msjSendEmail ?></p>
         <div id="success"></div>
-        <button type="submit" class="btn btn-default"><?php echo $enviarMensaje ?></button>
+        <button type="submit" id="sendEmail" name="sendEmail" class="btn btn-default"><?php echo $enviarMensaje ?></button>
       </form>
     </div>
   </div>
