@@ -234,6 +234,8 @@
           <div class="caption">
             <h3>Miguel Mosquera</h3>
             <p><?php echo $desarrollador ?></p>
+            <p>+58 0424-5595806</p>
+            <p>migmosquera2303@gmail.com</p>
           </div>
         </div>
       </div>
@@ -242,6 +244,8 @@
           <div class="caption">
             <h3>Oswaldo Teran</h3>
             <p><?php echo $desarrollador ?></p>
+            <p>+58 0416-5597370</p>
+            <p>oswaldobabaresco@gmail.com</p>
           </div>
         </div>
       </div>
