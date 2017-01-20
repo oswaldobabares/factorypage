@@ -164,7 +164,7 @@
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/alex.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="http://alexfernandez.tk" target="_blank" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Alex Fernandez</h4>
                 <small><?php echo $pestañaDos ?></small>
@@ -175,7 +175,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/blogbalbas.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="http://edgarbalbas.tk/blog/" target="_blank" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Blog Edgar Balbas</h4>
                 <small><?php echo $pestañaDos ?></small>
@@ -186,7 +186,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/poporoink.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="http://poporoink.com.ve" target="_blank" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Poporo Ink</h4>
                 <small><?php echo $pestañaDos ?></small>
@@ -197,7 +197,7 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 mobile">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/recorteApp.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="http://biz.totalhbl.com/app" target="_blank" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>App Herbalife</h4>
                 <small><?php echo $pestañaCuatro ?></small>
@@ -208,13 +208,24 @@
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 Applications">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/SYSLIFE.png" rel="prettyPhoto">
+            <div class="hover-bg"> <a  href="http://biz.totalhbl.com" target="_blank" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>SYSLIFE</h4>
                 <small><?php echo $pestañaTres ?></small>
                 <div class="clearfix"></div>
               </div>
               <img src="img/portfolio/SYSLIFE.png" class="img-responsive" alt="SYSLIFE"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 mobile">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="http://alex.totalhbl.com" target="_blank"  rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Tarjeta Virtual</h4>
+                <small><?php echo $pestañaTres ?></small>
+                <div class="clearfix"></div>
+              </div>
+              <img src="img/portfolio/tarjeta_alex.png" class="img-responsive" alt="Tarjeta Virtual"> </a> </div>
           </div>
         </div>
       </div>

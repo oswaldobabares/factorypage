@@ -4,9 +4,7 @@ function main() {
 (function () {
    'use strict';
 
-   /* ==============================================
-  	Testimonial Slider
-  	=============================================== */ 
+
 
   	$('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -21,9 +19,7 @@ function main() {
         }
       });
 
-    /*====================================
-    Show Menu on Book
-    ======================================*/
+
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
         if ($(window).scrollTop() > navHeight) {
@@ -39,9 +35,7 @@ function main() {
     })
 
 
-  	/*====================================
-    Portfolio Isotope Filter
-    ======================================*/
+
     $(window).load(function() {
         var $container = $('.portfolio-items');
         $container.isotope({
@@ -69,12 +63,10 @@ function main() {
 
     });
 
-  	/*====================================
-    Pretty Photo
-    ======================================*/
-	$("a[rel^='prettyPhoto']").prettyPhoto({
+
+	/*$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+	});	*/
 
 }());
 
