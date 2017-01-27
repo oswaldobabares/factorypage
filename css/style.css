@@ -3,7 +3,7 @@ body, html {
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #333;
-	overflow-y: hidden;
+	overflow-y: auto;
 }
 #info {
 	color: #000;
@@ -169,8 +169,14 @@ hr {
 .section-title {
 	padding-bottom: 50px;
 }
-/* Home Style */
-
+/* Home Style 
+.headerImg {
+	background: url(../img/header-bg.jpg) no-repeat bottom center;
+	background-size: cover;
+	color: #cfcfcf;
+	position: relative;
+	height: 100%;
+}*/
 header p {
 	color: #FFFFFF;
 	font-size: 18px;
@@ -500,6 +506,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 @media (max-width: 768px) {
 .content {
 	padding: 40% 0 0;
+}
+
+.intro-text {
+	padding-top: 250px;
 }
 }
 

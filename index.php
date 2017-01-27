@@ -51,16 +51,17 @@
     </div>
   </div>
 </nav>
+
 <div id="info">
 	<span id="birds" style="display: none"></span>
 	<!-- Header -->
-<header class="text-center" name="home">
-  <div class="intro-text">
-    <h1><?php echo $titulo ?><span class="color"> Web Progress</span></h1>
-    <p><?php echo $subTitulo ?></p>
-    <div class="clearfix"></div>
-    <a href="#about-section" class="btn btn-default btn-lg page-scroll"><?php echo $link ?></a> </div>
-</header>
+	<header class="text-center" name="home">
+	  <div class="intro-text">
+	    <h1><?php echo $titulo ?><span class="color"> Web Progress</span></h1>
+	    <p><?php echo $subTitulo ?></p>
+	    <div class="clearfix"></div>
+	    <a href="#about-section" class="btn btn-default btn-lg page-scroll"><?php echo $link ?></a> </div>
+	</header>
 </div>
 		<script src="js/three.js"></script>
 		<script src="js/Detector.js"></script>
